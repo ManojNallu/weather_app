@@ -1,0 +1,157 @@
+
+
+.Search_Bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#myInput{
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cityName{
+    color: white;
+    margin: 2% 0 0 3%;
+    padding: 0;
+    font-family: 'New Font';
+    font-stretch: ultra-condensed;
+    letter-spacing: 1px;
+}
+
+.curr_Date{
+    padding-top: 0;
+    margin: 0 0 1% 3%;
+    color: white;
+    font-family: 'New Font';
+    font-stretch: ultra-condensed;
+    
+}
+
+.Today_Temp_Details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.temp{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    font-family: 'New Font';
+    font-stretch: ultra-condensed;
+    letter-spacing: -1px;
+}
+
+.Temp_Deatils {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-family: 'AR One Sans';
+}
+
+.column {
+    flex: 1;
+    margin: 5px 50px 0 50px;
+}
+
+.detail {
+    text-align: center;
+    padding: 10px;
+}
+
+.value {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: white;  
+}
+
+.label {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* forecast css */
+.ForeCast_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Optional: Adjust the gap between each card */
+    padding: 10px;
+  }
+  
+  .ForeCast_Data {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 5px;
+    width: 50%;
+  }
+  
+  .title{
+    font-size: xx-large;
+  }
+
+  .temp_Icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .Card_Header{
+    border-radius: 10px;
+    padding: 2px;
+  }
+ 
+  .weather-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weather-info,span{
+    padding: 3px;
+  }
+
+  .weather-values{
+    display: flex;
+    flex-direction: column;
+    margin-right: 13px;
+  }
+
+  .weather-values,span{
+    padding: 3px;
+  }
+
+  .forecast_details{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+  }
+
+  .seperators {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+
+  
